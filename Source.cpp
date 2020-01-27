@@ -84,9 +84,9 @@ int main() {
 	}
 
 
-	if (b1 != false) 
+	if (b1 != false || b1 == true && looper == 4)
 	{
-		//do this
+		//do this if true
 	}
 	else if (b1 == true)
 	{
