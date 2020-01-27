@@ -45,9 +45,55 @@ int main() {
 
 	Then ending with the same notation in reverse.
 	*/
+	int looper = 0;
 
-	//*****   Talk about collapsing comments   *****//
+	string name = "Cory";
 
+	bool b1 = true;
+
+	int i1 = 2;
+
+	float f1 = 5.6f;
+
+	double d1 = 1.2;
+	
+	char c1 = 'F';
+
+	//returns the first char in the array of string 'name'
+	cout << name[0];
+
+	switch (c1)
+	{
+	case 'A':
+		break;
+	case 'B':
+		break;
+	case 'F':
+		break;
+	}
+
+	if (b1 == true)
+	{
+		//do this
+	}
+	else {
+		//do this
+	}
+
+
+	if (b1 != false) 
+	{
+		//do this
+	}
+	else if (b1 == true)
+	{
+		//do this instead
+	}
+
+	for (int i = 0; i < 101; ++i)
+	{
+		cout << looper++ << endl;
+	}
 
 	return 0;
 
