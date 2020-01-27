@@ -1,6 +1,8 @@
 #include <iostream>
 //preprocess directive
 
+#include "class.h"
+
 using namespace std;
 //namespace: a library of common functionality
 //as you become more experienced programmers you will not use this as often
@@ -60,7 +62,7 @@ int main() {
 	char c1 = 'F';
 
 	//returns the first char in the array of string 'name'
-	cout << name[0];
+	cout << name[0] << endl;
 
 	switch (c1)
 	{
@@ -69,6 +71,7 @@ int main() {
 	case 'B':
 		break;
 	case 'F':
+		cout << Add(4, 5);
 		break;
 	}
 
