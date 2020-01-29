@@ -94,6 +94,10 @@ int main()
 
 		if (b1 != false || b1 == true && looper == 4)
 		{
+			if (b1 == true)
+			{
+				//nested if
+			}
 			//do this if true
 		}
 		else if (b1 == true)
@@ -103,8 +107,14 @@ int main()
 
 
 
-		for (int i = 0; i < 101; ++i)
+
+		for (int i = 0; i < 101; i++)
 		{
+			//nested for loop
+			for (int j = 0; j < 101; j++)
+			{
+				cout << looper++ << endl;
+			}
 			cout << looper++ << endl;
 		}
 
