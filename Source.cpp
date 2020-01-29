@@ -1,24 +1,19 @@
 #include <iostream>
 //preprocess directive
 
+//notice the "" around the user created header
 #include "class.h"
 
+
 using namespace std;
-//namespace: a library of common functionality
-//as you become more experienced programmers you will not use this as often
-// std::(will access the members of that namespace
+/*namespace: a library of common functionality
+as you become more experienced programmers you will not use this as often
+std::(will access the members of that namespace)*/
 
-
-//We'll talk more about the above lines of code later in the course.
-
-int main() {
-
-
-	bool cont = false;
-	//do{
-
-		//this is a body
-		/*in a body, is where we put the logic that the program processes*/
+int main() 
+{
+		/*this is a body
+		in a body, is where we put the logic that the program processes*/
 		int num1 = 1;
 		int num2 = 2;
 
@@ -64,13 +59,12 @@ int main() {
 		double d1 = 1.2;
 
 		char grade = 'F';
-		cout << "***************";
+
+
 		cout << Tip(200, .2, 5) << endl;
 		cout << Tip(100, .5, 1) << endl;
-		cout << "***************";
 		
-
-		//returns the first char in the array of string 'name'
+		//returns the first char in the array of string "name"
 		cout << name[0] << endl;  
 
 		switch (grade)
@@ -85,7 +79,7 @@ int main() {
 		case 'D':
 			break;
 		case 'F':
-			cout << Add(4, 5);
+			cout << "You got an F" << endl;
 			break;
 		}
 
@@ -108,16 +102,15 @@ int main() {
 		}
 
 
+
 		for (int i = 0; i < 101; ++i)
 		{
 			cout << looper++ << endl;
 		}
 
 
-		system("Pause");
-	//} while (cont);
+	system("Pause");
 	return 0;
-
 
 
 }
