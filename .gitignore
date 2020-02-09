@@ -33,3 +33,5 @@
 
 #Junk
 *.zip
+**/Debug
+**/.vs
