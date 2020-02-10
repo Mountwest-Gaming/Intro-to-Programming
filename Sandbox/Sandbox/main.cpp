@@ -10,9 +10,10 @@ using namespace std;
 as you become more experienced programmers you will not use this as often
 std::(will access the members of that namespace)*/
 
+//header
 int main()
 {
-	/*this is a body
+	/*this is the body of our main function.
 	in a body, is where we put the logic that the program processes*/
 	int num1 = 1;
 	int num2 = 2;
